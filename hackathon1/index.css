@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+.outLine{
+    border: 1px solid black;
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+.titleInput {
+    text-align: center;
+    font-size: 21px;
+    font-weight: 700;
+    padding-top: 10px;
+    color: rgb(55, 54, 54);
+}
+.todoInput {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.outIcon{
+    background-color: rgb(43, 127, 106);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.inp {
+    width: 500px;
+    border: 1px solid rgb(214, 207, 207);
+    padding-left: 10px;
+}
+.addTodoList{
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(43, 127, 106);
+    width: 525px;
+    margin-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(231, 225, 225);
+}
+.titleList {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 21px;
+    font-weight: 700;
+    padding-top: 10px;
+    color: rgb(55, 54, 54);
+}
+#listTodo{
+    margin-top: 40px;
+}
+.todo{
+    display: flex;
+    justify-content: space-between;
+    padding-left:30px;
+    padding-right: 30px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.change{
+    color: rgb(197, 197, 63);
+    font-size: 21px;
+}
+.delTodo{
+    color: red;
+}
+
+.del{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.delDone {
+    background-color: rgb(221, 63, 63);
+    border: none;
+    padding-top: 5px;
+    padding-bottom:5px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: rgb(231, 225, 225);
+    
+}
+.delAll {
+    background-color: rgb(221, 63, 63);
+    border: none;
+    padding-top: 5px;
+    padding-bottom:5px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: rgb(231, 225, 225);
+}
+.completed{
+    text-decoration: line-through;
+    color: red;
+}
